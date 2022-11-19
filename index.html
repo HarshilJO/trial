@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+</head>
+<body>
+    <style>
+        .card{
+            width: 350px;
+            border: 9px solid whitesmoke;
+            border-radius: 12px;
+            text-align: center;
+            flex-wrap: wrap;
+
+        }
+    </style>
+    <div class="card">
+        <p>This is Java Script Practice </p>
+        <br>
+        <button id="clickme" onclick="clicked()">Click me</button>
+    </div>
+   
+    <script>
+        function clicked(){
+            console.log('the button is clicked')
+        }
+        window.onload=function(){
+            console.log('Document is Loaded')
+        }
+        firstcontainer.addEventListener('click',function(){
+            console.log('clicked on COntainer')
+        })
+        firstcontainer.addEventListener('onmouseover',function(){
+            console.log("clicked on COntainer")
+        })
+    </script>
+</body>
+</html>
